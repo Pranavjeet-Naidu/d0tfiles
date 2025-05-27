@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+<action>
+	<icon>utilities-terminal</icon>
+	<name>Open Terminal Here</name>
+	<submenu></submenu>
+	<unique-id>1748239100866768-1</unique-id>
+	<command>kitty --working-directory %f</command>
+	<description>Example for a custom action</description>
+	<range></range>
+	<patterns>*</patterns>
+	<startup-notify/>
+	<directories/>
+</action>
+<action>
+	<icon>package-x-generic</icon>
+	<name>Compress to 7z</name>
+	<submenu></submenu>
+	<unique-id>1748273298835355-1</unique-id>
+	<command>7z a %f.7z %f</command>
+	<description>Compress selected file or folder into a .7z archive</description>
+	<range></range>
+	<patterns>*</patterns>
+	<startup-notify/>
+	<directories/>
+</action>
+<action>
+	<icon>code</icon>
+	<name>Open in VS Code</name>
+	<submenu></submenu>
+	<unique-id>1748273298835360-2</unique-id>
+	<command>code %f</command>
+	<description>Open this folder in Visual Studio Code</description>
+	<range></range>
+	<patterns>*</patterns>
+	<directories/>
+</action>
+</actions>
